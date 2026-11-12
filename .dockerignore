@@ -1,0 +1,20 @@
+# Credenciales y entorno local
+.env
+.env.*
+
+# Control de versiones y devcontainer
+.git
+.gitignore
+.devcontainer
+
+# Notebooks y scripts de desarrollo
+notebooks/
+scripts/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
