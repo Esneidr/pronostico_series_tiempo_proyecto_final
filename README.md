@@ -4,6 +4,12 @@
 
 Vas a construir un servicio web que pronostica las próximas horas de una variable medida por sensores. Los datos vienen de **InfluxDB**, el modelo es un **SARIMA** que tú entrenas en **Google Colab**, la API está hecha en **FastAPI** y todo corre en **GitHub Codespaces**. Al final lo empaquetas en un **contenedor Docker**.
 
+## Video de Demostración
+
+Puedes ver el recorrido completo del proyecto y los resultados del modelo SARIMA en el siguiente enlace:
+
+[![Ver en YouTube](https://img.shields.io/badge/YouTube-Ver_Video_Demostrativo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/XR8S-kAb8dc?si=iXPh32JAcDct6wQI)
+
 ## Qué recibes y qué construyes
 
 La API ya está hecha: consulta InfluxDB, carga tu modelo y entrega el pronóstico en JSON. **No necesitas modificarla.** Tú construyes las tres piezas que la convierten en un servicio completo:
